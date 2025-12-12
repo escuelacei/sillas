@@ -1,0 +1,112 @@
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+:root{
+    font-size: 100%;
+    font-family : system-ui, sans-serif ;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , strong , em , mark , b , u , i , a{
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+    color:inherit;
+    line-height: inherit;
+    text-wrap: pretty;
+}
+mark{
+    background-color: transparent;
+}
+
+img , svg , picture, video {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: initial;
+}
+
+body{
+    font-family: Helvetica,  "Bebas Neue", sans-serif;
+      
+}
+
+/* Utilidades */
+.u-full-screen{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+
+    position: relative;
+}
+
+/* Bloques */
+.Main{
+    width: 100%;
+    min-height: 200vh;
+}
+.Hero{
+    background-color: white;
+    mix-blend-mode:  lighten;
+    z-index: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: center;
+
+    text-align: center;
+    font-weight: 450;
+}
+.Hero-row{
+    width: 100%;
+    background-color: white;
+    font-size: clamp( 3rem, 20vw , 9.4rem );
+    line-height: .95em;
+    border-top: 1px solid black;
+}
+.Hero-row--blank{
+    border:0;
+}
+.Hero-row--top{}
+.Hero-row--medium{}
+.Hero-row--bottom{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.Hero-word{}
+.Video{
+    /* margin-top: 100vh; */
+    position: sticky;
+    bottom: 0;
+}
+.Video-video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    object-fit: cover;
+}
+.Master{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.cuadrado{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
