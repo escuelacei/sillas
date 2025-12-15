@@ -1,4 +1,4 @@
-# Sillas
+# Proyecto de Sillas
 
 Una pequeña página web estática creada con HTML y CSS que sirve como prototipo o catálogo sencillo para mostrar diseños y estilos de sillas. Este repositorio contiene un ejemplo mínimo que puedes usar como base para practicar HTML/CSS o para empezar un proyecto frontend ligero.
 
